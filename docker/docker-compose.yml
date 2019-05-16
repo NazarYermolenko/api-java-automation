@@ -1,0 +1,8 @@
+version: "2"
+services:
+        app:
+                image: vad1mo/hello-world-rest
+                restart: always
+                ports: 
+                - 8080:5050
+
