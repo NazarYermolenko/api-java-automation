@@ -25,4 +25,12 @@ To set up the service you need to change directory to docker/ and then execute:
 docker-compose up. And if you send request http://localhost:8080/Mr.Propper, 
 you will get the next response: / - Hello Mr.Propper! Host:host
 </p>
+
+<h2>Added oportunity of execution test suites from command line: </h2>
+<p>
+Also it allows executing test with CI/CD
+
+mvn clean integration-test -Dsuite=<name_of_suite>
+mnv clean integration-test -Dsuite="first_suite"
+<p>
 </div>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API test suite">
+    <test name="API test" parallel="classes">
+        <classes>
+            <class name="com.nazaron.tests.FirstSuccessTest"/>
+
+            <class name="com.nazaron.tests.FirstFallenTest"/>
+        </classes>
+    </test>
+</suite>
